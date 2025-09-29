@@ -1,18 +1,44 @@
-# 防爆产业数据中心
+# 防爆产业数据中心 2.0
 
-## 项目概述
+## 项目简介
 
-防爆产业数据中心是一个以产业链为核心，深度整合企业、产品、方案、知识、人才与商业需求的一站式产业智能大脑平台。旨在打破信息孤岛，通过数据驱动与AI赋能，为销售、售前、市场及战略部门提供精准决策支持，提升商业机会转化效率与行业洞察能力。
+防爆产业数据中心是一个基于Vue 3 + Ant Design Vue构建的现代化产业数据管理平台，旨在为防爆产业提供全面的数据服务和智能分析能力。
 
 ## 技术栈
 
-- **前端框架**: Vue 3
+- **前端框架**: Vue 3 (Composition API)
 - **UI组件库**: Ant Design Vue 4.0
 - **构建工具**: Vite
 - **状态管理**: Pinia
 - **路由管理**: Vue Router 4
 - **样式预处理**: Sass
-- **图标库**: @ant-design/icons-vue
+- **开发语言**: JavaScript
+
+## 功能特性
+
+### 核心功能
+- 🏠 **门户首页**: 产品愿景展示和核心功能介绍
+- 🏢 **企业库**: 360度全景企业画像
+- 🚀 **方案库**: 行业解决方案知识库
+- 📚 **知识库**: 行业标准和知识管理
+- 👥 **人才库**: 人才信息管理
+- 📦 **产品库**: 产品信息管理
+- 🔗 **产业链库**: 产业链关系管理
+- 🛒 **需求库**: 需求信息管理
+- 📋 **政策库**: 政策信息管理
+- ❓ **行业问题库**: 行业问题管理
+
+### 企业库特色功能
+- **基本信息**: 工商信息、股东信息、主要人员
+- **产品方案**: 核心产品、解决方案展示
+- **荣誉标签**: 企业资质和荣誉展示
+- **产业链位置**: 上下游企业关系可视化
+- **行业标准**: 适配的行业标准展示
+- **行业方案**: 可适配的解决方案
+- **问题关联**: 行业问题关联分析
+- **政策适配**: 可申报政策推荐
+- **招投标信息**: 历史招投标记录
+- **人才信息**: 关键人员信息展示
 
 ## 项目结构
 
@@ -22,103 +48,23 @@ src/
 │   └── Header.vue      # 顶部导航组件
 ├── views/              # 页面组件
 │   ├── Home.vue        # 首页
-│   └── libraries/      # 9大库页面
-│       ├── EnterpriseLibrary.vue      # 企业库
-│       ├── SolutionLibrary.vue        # 方案库
-│       ├── KnowledgeLibrary.vue       # 知识库
-│       ├── TalentLibrary.vue          # 人才库
-│       ├── ProductLibrary.vue         # 产品库
-│       ├── IndustryChainLibrary.vue   # 产业链库
-│       ├── DemandLibrary.vue          # 需求库
-│       ├── PolicyLibrary.vue          # 政策库
+│   └── libraries/      # 九大库页面
+│       ├── EnterpriseLibrary.vue    # 企业库
+│       ├── EnterpriseDetail.vue     # 企业详情
+│       ├── SolutionLibrary.vue      # 方案库
+│       ├── KnowledgeLibrary.vue     # 知识库
+│       ├── TalentLibrary.vue        # 人才库
+│       ├── ProductLibrary.vue       # 产品库
+│       ├── IndustryChainLibrary.vue # 产业链库
+│       ├── DemandLibrary.vue        # 需求库
+│       ├── PolicyLibrary.vue        # 政策库
 │       └── IndustryProblemLibrary.vue # 行业问题库
 ├── router/             # 路由配置
-│   └── index.js
 ├── styles/             # 样式文件
-│   ├── variables.scss  # SCSS变量
-│   └── index.scss      # 全局样式
-├── App.vue             # 根组件
-└── main.js             # 入口文件
+└── main.js            # 应用入口
 ```
 
-## 功能特性
-
-### 1. 门户首页
-- 产品愿景展示
-- 核心问题与解决方案
-- 常用功能快速入口
-- 数据流可视化展示
-
-### 2. 企业库
-- 360度全景企业画像
-- 企业信息检索与筛选
-- 企业标签体系
-- 最新动态展示
-
-### 3. 方案库
-- 结构化行业解决方案
-- AI方案拆解功能
-- 技术栈分析
-- 成功案例展示
-
-### 4. 知识库
-- 行业标准与知识体系
-- 文档分类管理
-- 相关文档关联
-- 适用范围标注
-
-### 5. 人才库
-- 专业人才信息管理
-- 技能等级分类
-- 工作经历展示
-- 联系方式管理
-
-### 6. 产品库
-- 产品信息与规格管理
-- 技术参数展示
-- 应用场景标注
-- 供应商信息
-
-### 7. 产业链库
-- 产业链关系图谱
-- 上下游企业展示
-- 发展趋势分析
-- 典型案例
-
-### 8. 需求库
-- 商业需求与机会
-- 需求类型分类
-- 申报条件展示
-- 联系方式管理
-
-### 9. 政策库
-- 政策法规与申报指南
-- 政策优惠展示
-- 申报流程指导
-- 适用条件说明
-
-### 10. 行业问题库
-- 行业痛点与解决方案
-- 问题严重程度分级
-- 解决方案评估
-- 典型案例展示
-
-## 设计特色
-
-### UI色调
-参考天云聚合网站设计，采用深蓝紫色系作为主色调：
-- 主色调: `#1A234B` (深蓝紫)
-- 辅助色: `#1890FF` (蓝色)
-- 强调色: `#FF6B35` (橙色)
-- 背景色: 白色和浅灰色
-
-### 设计原则
-- 遵循Ant Design设计规范
-- 响应式设计，支持多端适配
-- 卡片式布局，信息层次清晰
-- 统一的交互体验
-
-## 安装与运行
+## 快速开始
 
 ### 环境要求
 - Node.js >= 16.0.0
@@ -134,6 +80,8 @@ npm install
 npm run dev
 ```
 
+访问 http://localhost:5000
+
 ### 生产环境构建
 ```bash
 npm run build
@@ -144,51 +92,73 @@ npm run build
 npm run preview
 ```
 
+## 在线预览
+
+🌐 **GitHub Pages**: https://kehan857.github.io/chanyeshujuzhongxin-2.0/
+
+## GitHub Pages 部署设置
+
+### 启用 GitHub Pages
+
+1. 进入仓库设置页面：https://github.com/kehan857/chanyeshujuzhongxin-2.0/settings/pages
+
+2. 在 "Source" 部分选择：
+   - **Source**: Deploy from a branch
+   - **Branch**: gh-pages
+   - **Folder**: / (root)
+
+3. 点击 "Save" 保存设置
+
+### 自动部署
+
+项目已配置 GitHub Actions 工作流，每次推送到 `main` 分支时会自动：
+- 构建项目
+- 部署到 `gh-pages` 分支
+- 更新 GitHub Pages 站点
+
+### 手动触发部署
+
+如果需要手动触发部署，可以：
+1. 进入 Actions 页面：https://github.com/kehan857/chanyeshujuzhongxin-2.0/actions
+2. 选择 "Deploy to GitHub Pages" 工作流
+3. 点击 "Run workflow" 按钮
+
 ## 开发指南
 
-### 添加新页面
-1. 在 `src/views/` 目录下创建新的Vue组件
+### 添加新的库页面
+1. 在 `src/views/libraries/` 目录下创建新的Vue组件
 2. 在 `src/router/index.js` 中添加路由配置
 3. 在 `src/components/Header.vue` 中添加导航菜单项
 
-### 样式开发
-- 使用SCSS预处理器
-- 遵循BEM命名规范
-- 使用全局变量定义颜色和尺寸
-- 响应式断点定义在 `variables.scss` 中
+### 样式规范
+- 使用Sass预处理器
+- 遵循Ant Design设计规范
+- 响应式设计，支持移动端
+- 使用CSS变量统一管理主题色彩
 
 ### 组件开发
 - 使用Vue 3 Composition API
-- 遵循Ant Design Vue组件规范
-- 保持组件的单一职责原则
-- 添加适当的TypeScript类型定义
+- 遵循组件化开发原则
+- 合理使用Ant Design Vue组件
+- 保持代码简洁和可维护性
 
 ## 部署说明
 
-### 构建配置
-项目使用Vite作为构建工具，配置文件为 `vite.config.js`。
+### GitHub Pages部署
+项目已配置GitHub Actions自动部署到GitHub Pages。
 
-### 部署步骤
-1. 执行 `npm run build` 构建生产版本
-2. 将 `dist` 目录部署到Web服务器
-3. 配置服务器支持SPA路由（History模式）
+1. 推送代码到main分支
+2. GitHub Actions会自动构建并部署
+3. 访问 https://kehan857.github.io/chanyeshujuzhongxin-2.0/
 
-### 环境变量
-可以通过环境变量配置API地址等参数：
-```bash
-VITE_API_BASE_URL=https://api.example.com
-```
-
-## 浏览器支持
-
-- Chrome >= 87
-- Firefox >= 78
-- Safari >= 14
-- Edge >= 88
+### 其他部署方式
+- **Vercel**: 连接GitHub仓库自动部署
+- **Netlify**: 拖拽dist文件夹或连接GitHub仓库
+- **阿里云/腾讯云**: 上传dist文件夹到静态网站托管
 
 ## 贡献指南
 
-1. Fork 项目
+1. Fork 本仓库
 2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
 3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
@@ -196,18 +166,14 @@ VITE_API_BASE_URL=https://api.example.com
 
 ## 许可证
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
 ## 联系方式
 
-- 项目维护者: 防爆产业数据中心团队
-- 邮箱: contact@explosion-proof-data.com
-- 电话: 400-999-3607
+如有问题或建议，请通过以下方式联系：
+- 提交 Issue
+- 发送邮件至项目维护者
 
-## 更新日志
+---
 
-### v1.0.0 (2024-01-20)
-- 初始版本发布
-- 实现9大库基础功能
-- 完成响应式设计
-- 集成Ant Design Vue组件库
+**防爆产业数据中心 2.0** - 让产业数据更智能，让决策更精准！
