@@ -96,6 +96,8 @@ npm run preview
 
 🌐 **GitHub Pages**: https://kehan857.github.io/chanyeshujuzhongxin-2.0/
 
+> 如果页面显示空白，请清除浏览器缓存或等待几分钟让CDN更新。
+
 ## GitHub Pages 部署设置
 
 ### 启用 GitHub Pages
