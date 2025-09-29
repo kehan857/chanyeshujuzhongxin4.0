@@ -7,8 +7,9 @@
 1. 进入仓库设置页面：https://github.com/kehan857/chanyeshujuzhongxin-2.0/settings/pages
 
 2. 在 "Source" 部分选择：
-   - **Source**: GitHub Actions
-   - 不要选择 "Deploy from a branch"
+   - **Source**: Deploy from a branch
+   - **Branch**: gh-pages
+   - **Folder**: / (root)
 
 3. 点击 "Save" 保存设置
 
