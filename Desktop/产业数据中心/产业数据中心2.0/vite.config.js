@@ -9,7 +9,7 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/chanyeshujuzhongxin3.0/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/tianyun-data-center/' : '/',
   server: {
     port: 5000,
     open: true,
