@@ -1,2 +1,1 @@
-Cache buster: 2025-09-30 00:28:00
-This file forces GitHub Pages to clear cache and serve fresh content.
+Cache buster: $(date '+%Y-%m-%d %H:%M:%S') - Force CDN refresh
