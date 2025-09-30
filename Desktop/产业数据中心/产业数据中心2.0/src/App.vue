@@ -9,7 +9,7 @@ import { onMounted } from 'vue'
 
 onMounted(() => {
   // 应用初始化逻辑
-  console.log('防爆产业数据中心启动成功')
+  console.log('天云产业数据中心启动成功')
 })
 </script>
 

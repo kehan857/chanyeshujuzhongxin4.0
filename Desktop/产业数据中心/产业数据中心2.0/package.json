@@ -1,7 +1,7 @@
 {
-  "name": "explosion-proof-industry-data-center",
+  "name": "tianyun-industry-data-center",
   "version": "1.0.0",
-  "description": "防爆产业数据中心 - 一站式产业智能大脑平台",
+  "description": "天云产业数据中心 - 一站式产业智能大脑平台",
   "private": true,
   "scripts": {
     "dev": "vite",

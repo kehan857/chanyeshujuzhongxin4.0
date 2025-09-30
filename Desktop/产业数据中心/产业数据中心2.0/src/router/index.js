@@ -89,7 +89,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   // 设置页面标题
   if (to.meta.title) {
-    document.title = `${to.meta.title} - 防爆产业数据中心`
+    document.title = `${to.meta.title} - 天云产业数据中心`
   }
   next()
 })

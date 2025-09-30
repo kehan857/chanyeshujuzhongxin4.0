@@ -8,8 +8,8 @@
             <SafetyOutlined />
           </div>
           <div class="logo-text">
-            <h1>防爆产业数据中心</h1>
-            <p>EXPLOSION-PROOF INDUSTRY DATA CENTER</p>
+            <h1>天云产业数据中心</h1>
+            <p>TIANYUN INDUSTRY DATA CENTER</p>
           </div>
         </div>
       </div>

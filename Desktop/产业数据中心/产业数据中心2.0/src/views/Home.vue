@@ -8,7 +8,7 @@
       <div class="hero-container">
         <div class="hero-content">
           <div class="hero-text">
-            <h1 class="hero-title">防爆产业数据中心</h1>
+            <h1 class="hero-title">天云产业数据中心</h1>
             <p class="hero-subtitle">数据驱动 × 产业赋能 打造数据智能新生态</p>
             <p class="hero-description">
               构建一个以产业链为核心，深度整合企业、产品、方案、知识、人才与商业需求的一站式产业智能大脑平台
@@ -153,11 +153,11 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-info">
-            <h3>防爆产业数据中心</h3>
+            <h3>天云产业数据中心</h3>
             <p>一站式产业智能大脑平台</p>
             <div class="contact-info">
               <p><PhoneOutlined /> 400-999-3607</p>
-              <p><MailOutlined /> contact@explosion-proof-data.com</p>
+              <p><MailOutlined /> contact@tianyun-data.com</p>
             </div>
           </div>
           
@@ -187,7 +187,7 @@
         </div>
         
         <div class="footer-bottom">
-          <p>&copy; 2024 防爆产业数据中心. 保留所有权利.</p>
+          <p>&copy; 2024 天云产业数据中心. 保留所有权利.</p>
         </div>
       </div>
     </section>
