@@ -58,7 +58,7 @@
             </div>
             
             <div class="filter-group">
-              <label>火石产业分类</label>
+              <label>产业分类</label>
               <a-select v-model:value="filters.industry" placeholder="请选择" style="width: 150px">
                 <a-select-option value="all">全部</a-select-option>
                 <a-select-option value="manufacturing">制造业</a-select-option>
