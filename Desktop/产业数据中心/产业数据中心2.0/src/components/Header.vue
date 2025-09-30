@@ -251,6 +251,7 @@ const handleMenuClick = ({ key }) => {
     padding: 0 8px;
     margin: 0 2px;
     font-size: 13px;
+    font-weight: 600;
     white-space: nowrap;
     
     .anticon {

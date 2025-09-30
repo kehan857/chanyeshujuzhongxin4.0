@@ -366,6 +366,19 @@ const navigateToFunction = (key) => {
   color: $text-primary;
   text-align: center;
   margin-bottom: $spacing-xxl;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -$spacing-md;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: $primary-color;
+    border-radius: 2px;
+  }
 }
 
 // 英雄区域
